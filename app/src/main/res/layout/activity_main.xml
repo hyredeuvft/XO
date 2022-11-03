@@ -41,7 +41,8 @@
                     android:layout_height="110dp"
                     android:background="@drawable/stylebutton"
                     android:layout_margin="5dp"
-                    android:text="@string/btnText" />
+                    android:text="@string/btnText"
+                    tools:ignore="SpeakableTextPresentCheck"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/r1c2"
@@ -49,7 +50,8 @@
                     android:layout_height="110dp"
                     android:layout_margin="5dp"
                     android:background="@drawable/stylebutton"
-                    android:text="@string/btnText" />
+                    android:text="@string/btnText"
+                    tools:ignore="SpeakableTextPresentCheck"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/r1c3"
@@ -57,7 +59,8 @@
                     android:layout_height="110dp"
                     android:layout_margin="5dp"
                     android:background="@drawable/stylebutton"
-                    android:text="@string/btnText" />
+                    android:text="@string/btnText"
+                    tools:ignore="SpeakableTextPresentCheck"/>
             </TableRow>
 
             <TableRow
@@ -70,7 +73,8 @@
                     android:layout_height="110dp"
                     android:layout_margin="5dp"
                     android:background="@drawable/stylebutton"
-                    android:text="@string/btnText" />
+                    android:text="@string/btnText"
+                    tools:ignore="SpeakableTextPresentCheck"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/r2c2"
@@ -78,7 +82,8 @@
                     android:layout_height="110dp"
                     android:layout_margin="5dp"
                     android:background="@drawable/stylebutton"
-                    android:text="@string/btnText" />
+                    android:text="@string/btnText"
+                    tools:ignore="SpeakableTextPresentCheck"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/r2c3"
@@ -86,7 +91,8 @@
                     android:layout_height="110dp"
                     android:layout_margin="5dp"
                     android:background="@drawable/stylebutton"
-                    android:text="@string/btnText" />
+                    android:text="@string/btnText"
+                    tools:ignore="SpeakableTextPresentCheck"/>
             </TableRow>
 
             <TableRow
@@ -99,7 +105,8 @@
                     android:layout_height="110dp"
                     android:layout_margin="5dp"
                     android:background="@drawable/stylebutton"
-                    android:text="@string/btnText" />
+                    android:text="@string/btnText"
+                    tools:ignore="SpeakableTextPresentCheck"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/r3c2"
@@ -107,7 +114,8 @@
                     android:layout_height="110dp"
                     android:layout_margin="5dp"
                     android:background="@drawable/stylebutton"
-                    android:text="@string/btnText" />
+                    android:text="@string/btnText"
+                    tools:ignore="SpeakableTextPresentCheck"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/r3c3"
@@ -115,7 +123,8 @@
                     android:layout_height="110dp"
                     android:layout_margin="5dp"
                     android:background="@drawable/stylebutton"
-                    android:text="@string/btnText" />
+                    android:text="@string/btnText"
+                    tools:ignore="SpeakableTextPresentCheck"/>
             </TableRow>
 
         </TableLayout>
