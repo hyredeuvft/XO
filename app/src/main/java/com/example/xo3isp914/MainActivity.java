@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     Boolean XO = true;
     Boolean isStarted = false;
     Boolean restart = true;
+    Integer count = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,13 +63,13 @@ public class MainActivity extends AppCompatActivity {
             Button vv = (Button) v;
             if (XO)
             {
-                vv.setText("X");
+                vv.setText("X ");
                 vv.setEnabled(false);
                 XO =! XO;
             }
             else
             {
-                vv.setText("O");
+                vv.setText("O ");
                 vv.setEnabled(false);
                 XO =! XO;
             }
@@ -89,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                 isStarted =! isStarted;
             }
 
-            if (r2c2.getText().toString()== r1c1.getText().toString() && r2c2.getText().toString()==r3c3.getText(git
+            if (r2c2.getText().toString()== r1c1.getText().toString() && r2c2.getText().toString()==r3c3.getText().toString() &&r2c2.getText().toString().length()!=0 ||
                     r2c2.getText().toString() == r1c3.getText().toString() && r2c2.getText().toString() == r3c1.getText().toString()
                             &&r2c2.getText().toString().length()!=0 ||
                     r2c2.getText().toString()== r1c2.getText().toString() && r2c2.getText().toString()==r3c2.getText().toString()
@@ -100,6 +101,11 @@ public class MainActivity extends AppCompatActivity {
                 result.setText(r3c3.getText().toString() + "Win");
                 isStarted =! isStarted;
             }
+            if (count==8 && result.getText().toString().length()==15)
+            {
+                result.setText("Ничья");
+            }
+            count++;
         }
     }
 
